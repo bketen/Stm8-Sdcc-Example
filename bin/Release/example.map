@@ -1,0 +1,100 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     FFFFFFFF  s_SSEG                          
+     00000000  .__.ABS.                           main
+     00000000  l_CABS                          
+     00000000  l_CONST                         
+     00000000  l_DABS                          
+     00000000  l_DATA                          
+     00000000  l_INITIALIZED                   
+     00000000  l_INITIALIZER                   
+     00000000  l__CODE                         
+     00000000  s_CABS                          
+     00000000  s_DABS                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000001  s_DATA                          
+     00000001  s_INITIALIZED                   
+     00000003  l_GSFINAL                       
+     00000008  l_HOME                          
+     0000001A  l_GSINIT                        
+     00000086  l_CODE                          
+     00008000  s_HOME                          
+     00008008  s_GSINIT                        
+     00008022  s_GSFINAL                       
+     00008025  s_CODE                          
+     000080AB  s_CONST                         
+     000080AB  s_INITIALIZER                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                FFFFFFFF    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00008000    00000008 =           8. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00008008    0000001A =          26. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             00008022    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                00008025    00000086 =         134. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008025  _main                              main
+     00008044  _Clock_Init                        main
+     0000805E  _GPIO_Init                         main
+     00008081  __delay                            main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+
+Files Linked                              [ module(s) ]
+
+obj\Release\main.rel                      [ main ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DATA = 0x0001
+SSEG = 0xffffffff
+
+

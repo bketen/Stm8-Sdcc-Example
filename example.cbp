@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="example" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/${PROJECT_NAME}.hex" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--out-fmt-ihx" />
+					<Add option="--model-large" />
+					<Add option="-mstm8" />
+					<Add option="--opt-code-size" />
+					<Add option="--std-sdcc99" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm8l.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
